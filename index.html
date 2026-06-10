@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Timea</title>
+
+  <!-- Google Fonts: Anton -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&amp;display=swap" rel="stylesheet">
+
+  <!-- Your main CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="stage">
+      <div class="side-text left">CONTENT</div>
+<div class="side-text right">CREATOR</div>
+    <button id="headBtn" class="head" type="button" aria-label="Open menu">
+      <div class="face">
+        <!-- SAME image twice, but clipped -->
+        <img class="layer top" src="images/headfull.png" alt="" />
+        <img class="layer bottom" src="images/headfull.png" alt="" />
+  
+      </div>
+
+      <div class="menu" aria-hidden="true">
+        <!--<h1 class="title">Videos</h1>-->
+
+<nav class="links">
+      <a class="tile" href="/about/about.html" aria-label="About me">
+    <img src="images/aboutme.png" alt="ABOUT ME" />
+  </a>
+  <a class="tile" href="/work/work.html" aria-label="Work">
+    <img src="images/work.png" alt="WORK" />
+  </a>
+    <a class="tile" href="/after5/index.html" aria-label="After 5">
+    <img src="images/after5.png" alt="AFTER 5" />
+  </a>
+
+  <a class="tile" href="/contact/contact.html" aria-label="Contact">
+    <img src="images/contact.png" alt="CONTACT" />
+  </a>
+</nav>
+
+        <div class="hint">Click the head to close</div>
+      </div>
+    </button>
+    <div class="cta" id="cta">
+  <img src="images/click-arrow.png" alt="Click the head">
+</div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
